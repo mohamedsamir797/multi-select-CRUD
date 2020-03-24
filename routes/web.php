@@ -30,3 +30,11 @@ Route::middleware('auth')->group(function(){
 
 
 });
+
+Route::get('excel','test\testController@excele');
+Route::post('excel','test\testController@importexcele');
+
+Route::get('export','test\testController@export');
+
+
+
